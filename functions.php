@@ -49,7 +49,7 @@ function get_footer() { ?>
 			<li id="phone"><a target="_self" id="phone">Phone</a></li>
 		</ul>
 	</div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/javascript/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/javascript/vendor/jquery-1.4.2.min.js"><\/script>')</script>
     <script src="assets/javascript/main-min.js"></script>
 <?php } ?>

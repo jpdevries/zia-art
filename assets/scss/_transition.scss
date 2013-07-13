@@ -1,0 +1,34 @@
+@mixin transition(
+	$what : all,
+	$length : 0.125s,
+	$easing : ease-in-out,
+	$delay : 0
+) {
+	-webkit-transition: $what $length $easing $delay;
+	   -moz-transition: $what $length $easing $delay;
+	     -o-transition: $what $length $easing $delay;
+		  	  transition: $what $length $easing $delay;
+}
+
+@mixin transition-delay(
+	$delay : 100ms
+) {
+	-webkit-transition-delay: $delay;
+	-moz-transition-delay: $delay;
+	-o-transition-delay: $delay;
+	-ms-transition-delay: $delay;
+	transition-delay: $delay;
+}
+
+@mixin transition-multiple(
+	$val
+) {
+
+	-webkit-transition: #{$val};
+	-moz-transition:  #{$val};
+	-o-transition:  #{$val};
+	-ms-transition:  #{$val};
+	transition:  #{$val};
+
+
+}
