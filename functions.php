@@ -10,14 +10,13 @@ function get_heaader($class) {
 		<link rel="stylesheet" type="text/css" href="assets/facebox/facebox.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css" media="screen" />
 		
-		<script type="text/javascript" language="javascript" src="assets/javascript/jquery-1.4.2.min.js"></script>
-		<script type="text/javascript" language="javascript" src="assets/javascript/jcarousellite_1.0.1.min.js"></script>
-		<!--script type="text/javascript" language="javascript" src="assets/javascript/jquery.easing.1.3.js"></script-->
+		<!--script type="text/javascript" language="javascript" src="assets/javascript/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" language="javascript" src="assets/javascript/jcarousellite_1.0.1.min.js"></script-->
 
-		<script type="text/javascript" language="javascript" src="assets/javascript/zia.jquery.js"></script>
+		<!--script type="text/javascript" language="javascript" src="assets/javascript/zia.jquery.js"></script>
 		<script src="assets/fancybox/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
 		<script src="assets/fancybox/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
-		<script src="assets/javascript/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/javascript/iscroll.js" type="text/javascript" charset="utf-8"></script-->
 			
 		<link rel="stylesheet" href="assets/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 	</head>
@@ -50,4 +49,7 @@ function get_footer() { ?>
 			<li id="phone"><a target="_self" id="phone">Phone</a></li>
 		</ul>
 	</div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/javascript/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="assets/javascript/main-min.js"></script>
 <?php } ?>
