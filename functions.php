@@ -6,20 +6,20 @@ function get_heaader($class) {
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>Robb Sturtcman Portfolio</title>
-		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png"/>
-		<link rel="stylesheet" type="text/css" href="facebox/facebox.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+		<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png"/>
+		<link rel="stylesheet" type="text/css" href="assets/facebox/facebox.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" media="screen" />
 		
-		<script type="text/javascript" language="javascript" src="javascript/jquery-1.4.2.min.js"></script>
-		<script type="text/javascript" language="javascript" src="javascript/jcarousellite_1.0.1.min.js"></script>
-		<!--script type="text/javascript" language="javascript" src="javascript/jquery.easing.1.3.js"></script-->
+		<script type="text/javascript" language="javascript" src="assets/javascript/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" language="javascript" src="assets/javascript/jcarousellite_1.0.1.min.js"></script>
+		<!--script type="text/javascript" language="javascript" src="assets/javascript/jquery.easing.1.3.js"></script-->
 
-		<script type="text/javascript" language="javascript" src="javascript/zia.jquery.js"></script>
-		<script src="fancybox/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
-		<script src="fancybox/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
-		<script src="javascript/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" language="javascript" src="assets/javascript/zia.jquery.js"></script>
+		<script src="assets/fancybox/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/fancybox/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/javascript/iscroll.js" type="text/javascript" charset="utf-8"></script>
 			
-		<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<link rel="stylesheet" href="assets/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 	</head>
 	<body>
 		<div id="wrapper" class="<?php echo $class; ?>">
