@@ -10,7 +10,7 @@ var curSlide = 0;
 var slideDir = 0;
 var totalSlides = -1;
 var isie = false;
-var myScroll;
+var myScroll; 
 
 $(document).ready(function () {
 	

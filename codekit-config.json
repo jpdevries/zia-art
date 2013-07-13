@@ -2,21 +2,21 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/assets\/modals\/illustration\/sk8_sparky_01.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/sk8_sparky_01.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/modals\/illustration\/dragonfly_3.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/dragonfly_3.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/modals\/illustration\/sk8_sparky_01.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/sk8_sparky_01.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1012,6 +1012,15 @@
       "initialSize" : 218,
       "fileType" : 8192
     },
+    "\/assets\/modals\/illustration\/lepurrrd.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/lepurrrd.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/images\/zia_button.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1022,15 +1031,6 @@
       "outputAbbreviatedPath" : "\/assets\/images\/zia_button.png",
       "initialSize" : 9101,
       "fileType" : 8192
-    },
-    "\/assets\/css\/main.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/images\/full_size\/rockskull.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1043,14 +1043,14 @@
       "initialSize" : 754243,
       "fileType" : 4096
     },
-    "\/assets\/modals\/illustration\/lepurrrd.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/assets\/css\/main.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/lepurrrd.html",
+      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/assets\/images\/thumb_size\/sk8_sparky_02.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1085,16 +1085,16 @@
       "outputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.cycle.lite.min-min.js",
       "fileType" : 64
     },
-    "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/assets\/images\/page_titles_craft.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/images\/page_titles_craft.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/images\/page_titles_craft.png",
+      "initialSize" : 1228,
+      "fileType" : 8192
     },
     "\/assets\/images\/thumb_size\/rock_skull.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1127,16 +1127,16 @@
       "initialSize" : 15472,
       "fileType" : 8192
     },
-    "\/assets\/images\/page_titles_craft.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/page_titles_craft.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/images\/page_titles_craft.png",
-      "initialSize" : 1228,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.easing-1.3.pack-min.js",
+      "fileType" : 64
     },
     "\/assets\/images\/full_size\/sea_nymph_3.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1193,6 +1193,17 @@
       "initialSize" : 490188,
       "fileType" : 8192
     },
+    "\/assets\/images\/thumb_size\/blast_04.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/images\/thumb_size\/blast_04.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/images\/thumb_size\/blast_04.jpg",
+      "initialSize" : 116189,
+      "fileType" : 4096
+    },
     "\/assets\/fancybox\/fancy_shadow_n.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1214,17 +1225,6 @@
       "outputAbbreviatedPath" : "\/assets\/images\/full_size\/spirit_raven.png",
       "initialSize" : 74696,
       "fileType" : 8192
-    },
-    "\/assets\/images\/thumb_size\/blast_04.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/thumb_size\/blast_04.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/images\/thumb_size\/blast_04.jpg",
-      "initialSize" : 116189,
-      "fileType" : 4096
     },
     "\/assets\/images\/thumb_size\/st_loco.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1909,6 +1909,27 @@
       "initialSize" : 219280,
       "fileType" : 4096
     },
+    "\/assets\/scss\/_resets.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/scss\/_resets.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_resets.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/modals\/design\/monster_madness.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/modals\/design\/monster_madness.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/javascript\/vendor\/jquery.fancybox-1.3.1.pack.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1919,15 +1940,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/assets\/javascript\/vendor\/jquery.fancybox-1.3.1.pack-min.js",
       "fileType" : 64
-    },
-    "\/assets\/modals\/design\/monster_madness.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/modals\/design\/monster_madness.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/images\/thumb_size\/blast_02.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1940,6 +1952,15 @@
       "initialSize" : 72180,
       "fileType" : 4096
     },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/images\/page_titles_logos.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1950,15 +1971,6 @@
       "outputAbbreviatedPath" : "\/assets\/images\/page_titles_logos.png",
       "initialSize" : 1217,
       "fileType" : 8192
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/facebox\/br.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2033,15 +2045,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/modals\/illustration\/wicked_to_the_core_2.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/wicked_to_the_core_2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/images\/full_size\/wq_crest_2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2051,6 +2054,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/images\/full_size\/wq_crest_2.jpg",
       "initialSize" : 119591,
+      "fileType" : 4096
+    },
+    "\/assets\/images\/full_size\/sea_nymph_2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/images\/full_size\/sea_nymph_2.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/images\/full_size\/sea_nymph_2.jpg",
+      "initialSize" : 235369,
       "fileType" : 4096
     },
     "\/assets\/scss\/_utility.scss" : {
@@ -2065,16 +2079,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/images\/full_size\/sea_nymph_2.jpg" : {
+    "\/assets\/modals\/illustration\/wicked_to_the_core_2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/full_size\/sea_nymph_2.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/images\/full_size\/sea_nymph_2.jpg",
-      "initialSize" : 235369,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/wicked_to_the_core_2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/modals\/illustration\/dragonfly_2.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2360,6 +2372,18 @@
       "initialSize" : 159564,
       "fileType" : 4096
     },
+    "\/assets\/scss\/_fancybox-1.3.1.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/scss\/_fancybox-1.3.1.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_fancybox-1.3.1.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/modals\/design\/megamind_2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2463,21 +2487,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/modals\/illustration\/sea_nymph_2.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/sea_nymph_2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/craft.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/craft.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/modals\/illustration\/sea_nymph_2.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/modals\/illustration\/sea_nymph_2.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2530,6 +2554,17 @@
       "outputAbbreviatedPath" : "\/assets\/javascript\/main-min-min.js",
       "fileType" : 64
     },
+    "\/assets\/images\/nav_branding.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/images\/nav_branding.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/images\/nav_branding.png",
+      "initialSize" : 705,
+      "fileType" : 8192
+    },
     "\/assets\/modals\/design\/ansela_2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2547,17 +2582,6 @@
       "inputAbbreviatedPath" : "\/illustration.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/images\/nav_branding.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/nav_branding.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/images\/nav_branding.png",
-      "initialSize" : 705,
-      "fileType" : 8192
     },
     "\/assets\/images\/full_size\/dragon_spirit.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2610,17 +2634,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/images\/full_size\/ready_set_go_1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/full_size\/ready_set_go_1.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/images\/full_size\/ready_set_go_1.jpg",
-      "initialSize" : 131077,
-      "fileType" : 4096
-    },
     "\/assets\/images\/full_size\/dragonfly_2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2630,6 +2643,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/images\/full_size\/dragonfly_2.jpg",
       "initialSize" : 124662,
+      "fileType" : 4096
+    },
+    "\/assets\/images\/full_size\/ready_set_go_1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/images\/full_size\/ready_set_go_1.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/images\/full_size\/ready_set_go_1.jpg",
+      "initialSize" : 131077,
       "fileType" : 4096
     },
     "\/assets\/images\/thumb_size\/wicked_to_the_core.jpg" : {
@@ -2725,6 +2749,15 @@
       "initialSize" : 109563,
       "fileType" : 4096
     },
+    "\/print.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/print.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/images\/full_size\/robbot.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2735,15 +2768,6 @@
       "outputAbbreviatedPath" : "\/assets\/images\/full_size\/robbot.jpg",
       "initialSize" : 154459,
       "fileType" : 4096
-    },
-    "\/print.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/print.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/images\/full_size\/lepurrrd_4.jpg" : {
       "ignoreWasSetByUser" : 0,
