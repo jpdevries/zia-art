@@ -73,19 +73,19 @@ div.web h1#title			{
 /* this is for the global nav */
 #nav_home 			a {
 	background-image: url(../images/nav_home.png);
-	/*@include image-set('../images/nav_home.png','../images/nav_home@2X.png');*/
+	@include image-set('../images/nav_home.png','../images/nav_home@2X.png');
 }
 #nav_illustration 	a {
 	background-image: url(../images/nav_illustration.png);
-	/*@include image-set('../images/nav_illustration.png','../images/nav_illustration@2X.png');*/
+	@include image-set('../images/nav_illustration.png','../images/nav_illustration@2X.png');
 }
 #nav_design 		a {
 	background-image: url(../images/nav_design.png);
-	/*@include image-set('../images/nav_design.png','../images/nav_design@2X.png');*/
+	@include image-set('../images/nav_design.png','../images/nav_design@2X.png');
 }
 #nav_branding 		a {
 	background-image: url(../images/nav_branding.png);
-	/*@include image-set('../images/nav_branding.png','../images/nav_branding@2X.png');*/
+	@include image-set('../images/nav_branding.png','../images/nav_branding@2X.png');
 }
 /*#nav_web 			a { background-image: url(../images/nav_web.png); }
 #nav_craft 			a { background-image: url(../images/nav_craft.png); }
