@@ -108,6 +108,7 @@ div.packaging li#kachina { top:144px; }
 
 li#kachina {
 	background: url('../images/nav_kachina.png') no-repeat top left;
+	@include image-set('../images/nav_kachina.png','../images/nav_kachina@2X.png');
 	width: 19px;
 	height: 15px;
 	position:absolute;
@@ -129,6 +130,7 @@ a#logo {
 	width:76px;
 	height:75px;
 	background-image: url(../images/zia_button.png);
+	@include image-set('../images/zia_button.png','../images/zia_button@2X.png');
 	display: block;
 	cursor: pointer;
 	position:absolute;
@@ -168,12 +170,14 @@ div#footer ul li {
 
 div#footer a#phone {
 	background: url(../images/phone_button.png) no-repeat;
+	@include image-set('../images/phone_button.png','../images/phone_button@2X.png');
 	width: 144px;
 }
 
 div#footer a#email {
 	width: 180px;
 	background: url(../images/email_button.png) no-repeat;
+	@include image-set('../images/email_button.png','../images/email_button@2X.png');
 }
 
 div#footer a#phone:hover, div#footer a#email:hover {
@@ -195,6 +199,7 @@ div #gallery ul li.slide {
 	width:508px;
 	height:317px;
 	background-image: url(../images/content_box.png);
+	@include image-set('../images/content_box.png','../images/content_box@2X.png');
 	margin-right:12px;
 }
 
@@ -275,12 +280,14 @@ a.gallery_btn:hover {
 
 a.gallery_btn#next_btn {
 	background-image: url(../images/next_button.png);
+	@include image-set('../images/next_button.png','../images/next_button@2X.png');
 	width: 72px;
 	left:446px;
 }
 
 a.gallery_btn#prev_btn {
 	background-image: url(../images/previous_button.png);
+	@include image-set('../images/previous_button.png','../images/previous_button@2X.png');
 	width: 90px;
 	left:0;
 }
@@ -322,11 +329,13 @@ p.media {
 div#facebox div.popup table tbody td.body div.content {
 	padding-top:29px;
 	background: url(../images/modal_window_tab.png) no-repeat;
+	@include image-set('../images/modal_window_tab.png','../images/modal_window_tab@2X.png');
 }
 
 div#fancybox-inner {
 	padding-top:29px;
 	background: url(../images/modal_window_tab.png) no-repeat;
+	@include image-set('../images/modal_window_tab.png','../images/modal_window_tab@2X.png');
 }
 
 .fancy-bg {

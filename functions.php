@@ -2,14 +2,18 @@
 
 function get_heaader($class) {
 	?>
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<title>Robb Sturtcman Portfolio</title>
 		<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png"/>
 		<link rel="stylesheet" type="text/css" href="assets/facebox/facebox.css" media="screen" />
+		<script src="assets/javascript/vendor/modernizr-2.6.2.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css" media="screen" />
-		
+		<base href="http://localhost/~jP/zia/" />
 		<!--script type="text/javascript" language="javascript" src="assets/javascript/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" language="javascript" src="assets/javascript/jcarousellite_1.0.1.min.js"></script-->
 
