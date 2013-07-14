@@ -33,21 +33,60 @@ body {
 }
 
 /* these are the paths to the large header titles */
-div.branding h1#title		{ background:transparent url('../images/page_titles_branding.png') no-repeat; }
-div.craft h1#title			{ background:transparent url('../images/page_titles_craft.png') no-repeat; }
-div.design h1#title			{ background:transparent url('../images/page_titles_design.png') no-repeat; }
-div.home h1#title			{ background:transparent url('../images/page_titles_home.png') no-repeat; }
-div.illustration h1#title 	{ background:transparent url('../images/page_titles_illustration.png') no-repeat; }
-div.logos h1#title 			{ background:transparent url('../images/page_titles_logos.png') no-repeat; }
-div.packaging h1#title 		{ background:transparent url('../images/page_titles_packaging.png') no-repeat; }
-div.print h1#title 			{ background:transparent url('../images/page_titles_print.png') no-repeat; }
-div.web h1#title			{ background:transparent url('../images/page_titles_web.png') no-repeat; }
+div.branding h1#title		{
+	background:transparent url('../images/page_titles_branding.png') no-repeat;
+	/*@include image-set('../images/page_titles_branding.png','../images/page_titles_branding@2X.png');*/
+}
+div.craft h1#title			{
+	background:transparent url('../images/page_titles_craft.png') no-repeat;
+	/*@include image-set('../images/page_titles_craft.png','../images/page_titles_craft@2X.png');*/
+}
+div.design h1#title			{
+	background:transparent url('../images/page_titles_design.png') no-repeat;
+	/*@include image-set('../images/page_titles_design.png','../images/page_titles_design@2X.png');*/
+}
+div.home h1#title			{
+	background:transparent url('../images/page_titles_home.png') no-repeat;
+	/*@include image-set('../images/page_titles_home.png','../images/page_titles_home@2X.png');*/
+}
+div.illustration h1#title 	{
+	background:transparent url('../images/page_titles_illustration.png') no-repeat;
+	/*@include image-set('../images/page_titles_illustration.png','../images/page_titles_illustration@2X.png');*/
+}
+div.logos h1#title 			{
+	background:transparent url('../images/page_titles_logos.png') no-repeat;
+	/*@include image-set('../images/page_titles_logos.png','../images/page_titles_logos@2X.png');*/
+}
+div.packaging h1#title 		{
+	background:transparent url('../images/page_titles_packaging.png') no-repeat;
+	/*@include image-set('../images/page_titles_packaging.png','../images/page_titles_packaging@2X.png');*/
+}
+div.print h1#title 			{
+	background:transparent url('../images/page_titles_print.png') no-repeat;
+	/*@include image-set('../images/page_titles_print.png','../images/page_titles_print@2X.png');*/
+}
+div.web h1#title			{
+	background:transparent url('../images/page_titles_web.png') no-repeat;
+	/*@include image-set('../images/page_titles_web.png','../images/page_titles_web@2X.png');*/
+}
 
 /* this is for the global nav */
-#nav_home 			a { background-image: url(../images/nav_home.png); }
-#nav_illustration 	a { background-image: url(../images/nav_illustration.png); }
-#nav_design 		a { background-image: url(../images/nav_design.png); }
-#nav_branding 		a { background-image: url(../images/nav_branding.png); }
+#nav_home 			a {
+	background-image: url(../images/nav_home.png);
+	/*@include image-set('../images/nav_home.png','../images/nav_home@2X.png');*/
+}
+#nav_illustration 	a {
+	background-image: url(../images/nav_illustration.png);
+	/*@include image-set('../images/nav_illustration.png','../images/nav_illustration@2X.png');*/
+}
+#nav_design 		a {
+	background-image: url(../images/nav_design.png);
+	/*@include image-set('../images/nav_design.png','../images/nav_design@2X.png');*/
+}
+#nav_branding 		a {
+	background-image: url(../images/nav_branding.png);
+	/*@include image-set('../images/nav_branding.png','../images/nav_branding@2X.png');*/
+}
 /*#nav_web 			a { background-image: url(../images/nav_web.png); }
 #nav_craft 			a { background-image: url(../images/nav_craft.png); }
 #nav_print 			a { background-image: url(../images/nav_print.png); }
