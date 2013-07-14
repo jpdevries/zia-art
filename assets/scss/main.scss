@@ -25,6 +25,15 @@ body {
 	clear:both;
 }
 
+.gallery_btn {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 body {
 	background: #000 url(../images/background.jpg) no-repeat center top;
 	text-align:center;
@@ -97,9 +106,9 @@ div.web h1#title			{
 span#fancy_left_ico {left: 20px; } 
 span#fancy_right_ico {right: 20px;}
 
-div.illustration li#kachina { top:18px; }
-div.design li#kachina { top:36px; }
-div.branding li#kachina { top:54px; }
+div.illustration, body.p-2 { li#kachina { top:18px; } }
+div.design, body.p-3 { li#kachina { top:36px; } }
+div.branding, body.p-4 { li#kachina { top:54px; } }
 div.web li#kachina { top:72px; }
 div.craft li#kachina { top:90px; }
 div.print li#kachina { top:108px; }

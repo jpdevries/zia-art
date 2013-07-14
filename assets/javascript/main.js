@@ -42,7 +42,13 @@ $(document).ready(function () {
 			'overlayOpacity':  0.7,
 			'showCloseButton' : true,
 			'easingIn'		: 'easeOutQuad',
-			'easingOut'		: 'easeInQuad'
+			'easingOut'		: 'easeInQuad',
+			'onComplete'	: function() {
+				$('body').addClass('modal-open');
+			},
+			'onClosed'	: function() {
+				$('body').removeClass('modal-open');
+			}
 		});
 	
 	
@@ -53,10 +59,11 @@ $(document).ready(function () {
 			next:"#modal_next",
 			prev:"#modal_prev"
 		});
+
 		//$('div.slideshow').height($('div.slideshow img:first').height());
 		//$('div.slideshow').width($('div.slideshow img:first').width());
 		$('.modal_arrow').fadeIn(300);
-  })
+  });
 	
 	totalSlides = $('#gallery_wrapper ul li').length;
 	
@@ -137,6 +144,7 @@ $(document).ready(function () {
 	
 	// keyboard listeners for the gallery
 	$(document).keydown(function(e) {
+		if($('body').hasClass('modal-open')) return;
 		var key = 0;
 		if (e == null) {
 			key = event.keyCode;
