@@ -1,6 +1,15 @@
 <?php include 'functions.php'; ?>
 <?php get_heaader('illustration'); ?>
-			<h1 id="title">Illustration</h1>
+			<aside class="social">
+				<nav>
+					<ul>
+						<li><a href="" class="google">Google+</a></li>
+						<li><a href="" class="linkedin">LinkedIn</a></li>
+						<li><a href="" class="twitter">Twitter</a></li>
+						<li><a href="" class="facebook">Facebook</a></li>
+					</ul>
+				</nav>
+			</aside>
 			<div id="gallery">
 				<div id="gallery_wrapper">
 					<ul>
