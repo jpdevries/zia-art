@@ -14,7 +14,14 @@
 
 /* reset */
 
-
+@mixin zia-hover($opacity:0.8,$duration:360ms) {
+	opacity:$opacity;
+	@include transition(opacity,$duration,ease-out);
+	&:hover {
+		opacity:1;
+		@include transition(opacity,360ms,ease-in);
+	}
+}
 
 body {
 	overflow-y:scroll;
@@ -216,13 +223,42 @@ div #gallery ul li.slide.blank {
 	background:none;
 }
 
-div #gallery ul li.slide img.thumb {
+div #gallery ul li.slide img.thumb { 
 	width:490px;
 	height:280px;
 	position:absolute;
 	top:27px;
-	left:9px;
+	left:8px;
 	border:1px solid #C9BCA6;
+}
+
+.branding #gallery ul li.slide a {
+	
+	@include zia-hover();
+}
+
+aside.social {
+	position:absolute;
+	bottom:0;
+	left:90px;
+	ul {
+		@include navigation-list();
+		li {
+
+		}
+		a {
+			width:25px;
+			height:25px;
+			@extend %ir;
+			display:block;
+			margin-right:4px;
+			@include zia-hover(0.7,240ms); 
+			&.google { @include image-set('../images/social_gplus.png','../images/social_gplus@2X.png') }
+			&.facebook { @include image-set('../images/social_facebook.png','../images/social_facebook@2X.png') }
+			&.linkedin { @include image-set('../images/social_linkedin.png','../images/social_linkedin@2X.png') }
+			&.twitter { @include image-set('../images/social_twitter.png','../images/social_twitter@2X.png') }
+		}
+	}
 }
 
 div #gallery ul li.slide p {
@@ -260,7 +296,7 @@ div #gallery_wrapper.touch ul li {
 }
 
 #wrapper {
-    
+    height:453px;
 }
 
 #wrapper {
