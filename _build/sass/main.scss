@@ -9,6 +9,7 @@
 @import "utility";
 @import "transition";
 @import "image-set";
+@import "bourbon/bourbon";
 /* end mixins */
 
 
@@ -31,6 +32,9 @@ body {
 .clr {
 	clear:both;
 }
+
+a,a:visited { color:inherit; }
+#fancybox-inner a:hover { text-decoration:underline; }
 
 .gallery_btn {
 	-webkit-touch-callout: none;
