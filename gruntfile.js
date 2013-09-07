@@ -6,7 +6,8 @@ module.exports = function(grunt) {
 			lib: './lib',
 			scss: './_build/sass/',
 			css: './assets/css/',
-			js: './assets/javascript/'
+			js: './assets/javascript/',
+			img: './assets/images/'
 		},
 		bower: {
 			install: {
@@ -48,6 +49,14 @@ module.exports = function(grunt) {
 			dest: './<%= dirs.js %>main-min.js'
 	      }
 	    },
+		imageoptim:{
+			files:['./assets/images/'], /* doesn't support <%= dirs.img %> */
+			options:{
+	        	jpegMini: false,
+	        	imageAlpha: false,
+	        	quitAfter: false
+			}
+		},
 		csso: {
 			compress: {
 				options: {
@@ -127,7 +136,11 @@ module.exports = function(grunt) {
 			uglify: {
 				title: "grunt",
 				message: "JavaScript uglified."
-			}
+			},
+			imageoptim : {
+				title : "grunt",
+				message : "Images crushed!"
+			},
 		}
 	});
 
@@ -142,10 +155,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-csso');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-
+	grunt.loadNpmTasks('grunt-imageoptim');
 
 	// Tasks
 	grunt.registerTask('default', ['sass:dist', 'autoprefixer', 'growl:prefixes', 'growl:sass', 'asciify', 'csso', 'growl:watch', 'watch']);
 	grunt.registerTask('build', ['clean:prebuild', 'bower', 'rename', 'sass:dist', 'autoprefixer', 'growl:prefixes', 'growl:sass', 'asciify', 'csso','concat','growl:concat','uglify','growl:uglify']);
 	grunt.registerTask('expand', ['sass:dev', 'autoprefixer', 'growl:prefixes', 'growl:sass']);
+	grunt.registerTask('crush',['imageoptim','growl:imageoptim']); 
 };
