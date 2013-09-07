@@ -1,0 +1,12 @@
+{
+	"name":"zia-art",
+	"version":"0.0.1",
+	"dependencies":{
+		"bourbon":"*"
+	},
+	"exportsOverride":{
+		"bourbon":{
+			"":"app/assets/stylesheets/"
+		}
+	}
+}
